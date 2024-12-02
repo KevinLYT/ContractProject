@@ -21,22 +21,22 @@ This project involves developing and deploying decentralized messaging contracts
 
 ### 1. Clone the Repository 克隆仓库
 
-\`\`\`bash
+```bash
 git clone https://github.com/KevinLYT/ContractProject.git
 cd ContractProject
-\`\`\`
+
 
 ### 2. Install Node Dependencies 安装Node依赖
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+
 
 ### 3. Install Python Dependencies 安装Python依赖
 
-\`\`\`bash
+```bash
 pip install web3 numpy matplotlib
-\`\`\`
+
 
 ### 4. Start Ganache 启动Ganache
 
@@ -50,10 +50,10 @@ Compile and deploy both the original and optimized versions of the smart contrac
 
 编译并将原始版和优化版的智能合约部署到本地区块链。
 
-\`\`\`bash
+```bash
 truffle compile
 truffle migrate
-\`\`\`
+
 
 ### 6. Run Python Script 运行Python脚本
 
@@ -61,13 +61,13 @@ To compare gas costs between the original and optimized contracts, use the Pytho
 
 运行Python脚本，比较原始合约和优化合约的Gas费用：
 
-\`\`\`bash
+```bash
 python gas_estimation_comparison.py
-\`\`\`
+
 
 ## Project Structure 项目结构
 
-\`\`\`bash
+```bash
 ContractProject/
 ├── contracts/                 # Smart contracts (智能合约)
 │   ├── MyContract.sol
@@ -79,7 +79,7 @@ ContractProject/
 ├── gas_estimation_comparison.py  # Python script to estimate gas costs (Python脚本用于估算Gas费用)
 ├── README.md                  # Project documentation (项目文档)
 └── truffle-config.js          # Truffle configuration file (Truffle配置文件)
-\`\`\`
+
 
 ## Usage 用法
 
