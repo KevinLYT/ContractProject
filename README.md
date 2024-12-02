@@ -56,6 +56,7 @@ Compile and deploy both the original and optimized versions of the smart contrac
 ```bash
 truffle compile
 truffle migrate
+```
 
 
 ### 6. Run Python Script 运行Python脚本
@@ -66,6 +67,7 @@ To compare gas costs between the original and optimized contracts, use the Pytho
 
 ```bash
 python gas_estimation_comparison.py
+```
 
 
 ## Project Structure 项目结构
@@ -82,6 +84,7 @@ ContractProject/
 ├── gas_estimation_comparison.py  # Python script to estimate gas costs (Python脚本用于估算Gas费用)
 ├── README.md                  # Project documentation (项目文档)
 └── truffle-config.js          # Truffle configuration file (Truffle配置文件)
+```
 
 
 ## Usage 用法
