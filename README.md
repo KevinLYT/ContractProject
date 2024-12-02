@@ -24,18 +24,21 @@ This project involves developing and deploying decentralized messaging contracts
 ```bash
 git clone https://github.com/KevinLYT/ContractProject.git
 cd ContractProject
+```
 
 
 ### 2. Install Node Dependencies 安装Node依赖
 
 ```bash
 npm install
+```
 
 
 ### 3. Install Python Dependencies 安装Python依赖
 
 ```bash
 pip install web3 numpy matplotlib
+```
 
 
 ### 4. Start Ganache 启动Ganache
